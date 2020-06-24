@@ -76,10 +76,6 @@ span{
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
- 
-
-
 .inicio .contenedor img:hover{
     transform:scale(1.1);
 }
