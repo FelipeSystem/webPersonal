@@ -1,0 +1,98 @@
+
+#carrusel{
+    /* background: coral; */
+    height: 600px;
+}
+/* SECTION: SERCICES------------------------ */
+#carrusel .services_item .caja-texto {
+    background: rgb(224, 224, 224);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#carrusel .services_item .caja-texto p{
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 5px 5px 2px #fff;
+ /* color: #680; */
+    /* border: 2px solid rgb(253, 213, 32); */
+}
+#carrusel .containe .row {
+    /* border: 2px solid blue; */
+    height: 500px;
+    /* margin: auto; */
+    
+}
+#carrusel .containe .row #cols12 {
+    border: 2px solid #fff;
+    height: 500px;
+    background: rgb(224, 224, 224);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carrusel .containe .row .carousel {
+    /* border: 2px solid yellow; */
+    
+    /* width: 1000px; */
+    height: 500px;
+    min-height:200px;
+    position: relative;
+}
+
+#carrusel  .containe .row .carousel .carousel-item {
+    display: flex; 
+    flex-direction: initial; 
+    width: 600px;
+    height: 430px;
+    /* max-height: 200px; */
+    /* border: 2px solid green; */
+    margin: 0px;
+    padding: 0px;
+   
+}
+#carrusel  .containe .row  i{
+   font-size: 40px;
+   color: #fff;
+}
+
+#carrusel  .containe .row  i:hover{
+    /* font-size: 25px; */
+    color: rgb(177, 169, 169);
+ }
+
+#img-carrusel{
+    border: 8px solid #fff;
+    z-index: -1;
+    width: 600px;
+    height: 400px;
+    border-radius: 25px ;
+    -webkit-box-shadow: 0 20px 6px -10px #777;
+    -moz-box-shadow: 0 20px 6px -10px #777;
+    box-shadow: 0 20px 6px -10px #777;
+
+}
+
+
+
+.carousel {
+    transform: translateY(20px);
+    /* height: 100px; */
+    /* perspective: 600px; */
+}
+
+.carousel-inner {
+    /* height: 300px; */
+   }
+
+/* ---------------------------------------------------- */
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin:0 15px;
+    background: #000;
+    color: #000;
+}

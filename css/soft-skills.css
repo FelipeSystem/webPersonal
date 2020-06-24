@@ -1,0 +1,62 @@
+#soft-skills {
+    background: rgb(105, 105, 202);
+    color: #333;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    /* height: 100%; */
+    height: 450px;
+    /* display: flow-root; */
+    /* border: 5px solid red; */
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soft-skills h3{
+    font-family:monospace ;
+    color: #fff;
+    margin: 20px auto;
+    /* margin-top:0px; */
+    /* padding-top: 3rem; */
+    /* border: 5px solid red; */
+}
+
+.hab-icono{
+    
+    /* border: 5px solid red; */
+} 
+
+.hab-icono img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#soft-skills .grupo2{
+    display: flex;
+    justify-content: space-around;
+
+    /* border: 5px solid red; */
+    width: 1200px;
+}
+
+#soft-skills .grupo2 .hab-icono {
+    color: #fff;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+}
+#soft-skills .grupo2 .hab-icono p{
+    color: #fff;
+    /* border: 5px solid white; */
+}
+#soft-skills .division{
+    display: flex;
+    justify-content: space-around;
+}
+
+#soft-skills hr{
+    width: 95%;
+}

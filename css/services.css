@@ -1,0 +1,121 @@
+#servicios{
+    /* background: rgb(172, 202, 236); */
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(/img/svg/FONDO.svg) ; */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: #fff; */
+}
+
+ 
+/* GRUPO 1 */
+#servicios .serv-texto{
+    color: #000;
+    border: 5px solid red;
+}
+
+#servicios .serv-texto h3{
+    color: #000;
+    font-size: 20px;
+}
+/* GRUPO 2 */
+ #servicios .containe{
+    flex-direction: column;
+    
+    /* border: 5px solid red; */
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#servicios .containe .cabecera {
+    /* border: 2px solid blue; */
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#servicios .containe .cabecera .cabecera-imagen {
+    /* border: 2px solid blue; */
+    /* width: 300px; */
+    width: 50%;
+    background: url(/img/equipo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px ;
+    
+}
+
+
+#servicios .containe .cabecera .cabecera-texto{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: rgb(251, 251, 251);
+}
+#servicios .containe .cabecera .Caja1{
+    border-radius: 10px  ;
+
+    width: 500px;
+    height: 180px;
+}
+
+#servicios .containe .cabecera .Caja{
+    border-radius: 10px  ;
+    /* border: 2px solid rgb(16, 90, 160); */
+    /* background: rgb(195, 221, 246); */
+    width: 500px;
+    height: 150px;
+    display: flex; 
+    flex-direction: initial; 
+
+}
+/* #servicios .containe .cabecera .Caja:hover{
+    background: #fff; 
+} */
+
+#servicios .containe .cabecera .Caja i{
+    padding: 24px 10px 0 10px ;
+    font-size: 30px;
+    color: rgb(3, 77, 119);
+    /* flex-direction: initial;  */
+}
+
+#servicios .containe .cabecera .Caja .cajatexto{
+    
+    font-size: 15px;
+    color: rgb(55, 104, 6);
+    /* flex-direction: initial;  */
+}
+
+#servicios .containe .cabecera .Caja .cajatexto h4{
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#servicios .containe .cabecera .Caja .cajatexto p{
+    padding: 0 10px 5px 0px ;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+

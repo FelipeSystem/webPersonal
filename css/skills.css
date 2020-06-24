@@ -1,0 +1,146 @@
+#skills {
+    /* background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
+    background: #fff;
+    color: rgb(65, 63, 63);
+    /* text-align: center; */
+    box-sizing: border-box;
+    height: 800px;
+    /* width: 800px; */
+    /* border:3px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+
+/* GRUPO 1 */
+#skills  .skill-img{
+    
+    width: 800px;
+}
+#skills  .skill-img .grupo1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+#skills  .skill-img img{
+    width: 100%;
+    height: 100%;
+    /* border:2px solid red; */
+    padding: 15px;
+    
+
+}
+
+.skills_item .grupo1 .DESCRIPCION{
+    /* border:2px solid #888; */
+    width: 800px; 
+    display: flex;
+    justify-content: center;
+}
+
+ img{
+    width: 550px;
+    border:2px solid #888;
+    animation: ease-in animat 1s;
+}
+@keyframes animat{
+    
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.icono {
+    margin: 20px;
+    /* border:3px solid rgb(142, 143, 201); */
+    padding: 10px 10px;
+    /* background: rgba(142, 143, 201, .2); */
+    transition: 0.5s;
+}
+
+.icono span{
+    font-size: 2em;
+    color: rgb(105, 105, 202);
+    font-weight: bold;
+}
+
+/* .icono .info-cont h4{
+    margin-block-start: 1px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+.icono .info-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    /* border:2px solid #888; */
+}
+
+.icono .info-parrafo{
+    /* font-size: 18px; */
+    /* font-weight: bold; */
+    text-align: justify;
+    /* border:2px solid #888; */
+}
+
+.icono:hover {
+    transform:scale(1.2);
+    /* color: lightgreen; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    /* background: rgba(142, 143, 201, .2); */
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgba(17, 29, 48, 0.918);
+}
+
+
+/* GRUPO 2 */
+#skills  .skill-text{
+    /* background: rgba(224, 219, 219, 0.925); */
+    width: 300px;
+    /* position: relative; */
+    /* padding: 10px 10px 10px 10px;
+    margin:20px 0 0 0; */
+    /* border:2px solid red; */
+}
+
+#skills  .skill-text div h5{
+    /* border:2px solid red; */
+    text-align: left;
+    position: relative;
+    background: rgba(224, 219, 219, 0.925); 
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0 10px 15px;
+}
+#skills  .skill-text .box-skills h4 {
+    /* font-weight: 100; */
+    font-family:monospace ;
+    margin: auto;
+    color: rgb(100, 100, 105);
+    font-weight: bold;
+}
+
+#skills  .skill-text .box-skills .Prueba {
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+#skills  .skill-text .box-skills span {
+    margin:15px;
+    font-size: 10em;
+    /* align-items: center; */
+    color:rgb(105, 105, 202);
+    font-weight: bold;
+    /* box-shadow: 0 0 10px rgba(17, 29, 48, 0.918); */
+   
+}
